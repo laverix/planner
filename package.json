@@ -1,0 +1,28 @@
+{
+  "name": "planner",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/laverix/planner.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/laverix/planner/issues"
+  },
+  "homepage": "https://github.com/laverix/planner#readme",
+  "devDependencies": {
+    "del": "^2.2.1",
+    "gulp": "^3.9.1",
+    "live-server": "^1.0.0",
+    "run-sequence": "^1.2.2",
+    "typescript": "^1.8.10",
+    "typings": "^1.3.2"
+  }
+}
