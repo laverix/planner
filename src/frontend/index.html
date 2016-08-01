@@ -1,0 +1,29 @@
+<html>  
+  <head>
+    <title>ng2 on electron</title>
+  </head>
+  <body>
+    <ng2-electron-app>Loading Angular2 sample app...</ng2-electron-app>
+
+    <script src="scripts/vendor/es6-shim.min.js"></script>
+    <script src="scripts/vendor/system-polyfills.js"></script>
+    <script src="scripts/vendor/angular2-polyfills.js"></script>
+    <script src="scripts/vendor/system.src.js"></script>
+    <script src="scripts/vendor/Rx.js"></script>
+    <script src="scripts/vendor/angular2.dev.js"></script>
+    <script>
+        System.config({
+
+            packages: {
+                'app': {
+                    format: 'register',
+                    defaultExtension: 'js'
+                }
+            }
+        });
+        System.import('app/boot')
+                .then(null, console.error.bind(console));
+    </script>
+
+  </body>
+</html>  
