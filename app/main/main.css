@@ -19,3 +19,11 @@ body {
 .clear {
     clear: both;
 }
+
+.right {
+    float: right!important;
+}
+
+.left {
+    float: right!important;
+}

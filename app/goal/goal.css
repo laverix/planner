@@ -1,0 +1,36 @@
+.goal {
+    height: 60px;
+    position: relative;
+    float: left;
+}
+
+.header {
+    height: 5px;
+}
+
+h1 {
+    font-size: 14px;
+    color: #4A4A4A;
+    font-weight: bold;
+    margin: 10px 0 0 10px;
+    float: left;
+    clear: left;
+}
+
+h2 {
+    font-size: 14px;
+    color: #4A4A4A;
+    margin: 0 0 0 10px;
+    float: left;
+    clear: left;
+}
+
+.remove {
+    background: #EB5945;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    position: absolute;
+    top: 45%;
+    right: 10px;
+}

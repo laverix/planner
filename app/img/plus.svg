@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="14px" height="14px" viewBox="0 0 14 14" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 39.1 (31720) - http://www.bohemiancoding.com/sketch -->
+    <title>Shape</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Dark" transform="translate(-185.000000, -166.000000)" fill="#5DBF2F">
+            <g id="Sidebar" transform="translate(30.000000, 113.000000)">
+                <g id="Item" transform="translate(0.000000, 30.000000)">
+                    <g id="android-add-circle" transform="translate(155.000000, 23.000000)">
+                        <g id="Layer_1">
+                            <path d="M7,0 C3.13401442,0 0,3.13401442 0,7 C0,10.8659856 3.13401442,14 7,14 C10.8659856,14 14,10.8659856 14,7 C14,3.13401442 10.8659856,0 7,0 L7,0 Z M10.6009615,7.70673077 L7.70673077,7.70673077 L7.70673077,10.6009615 L6.29326923,10.6009615 L6.29326923,7.70673077 L3.39903846,7.70673077 L3.39903846,6.29326923 L6.29326923,6.29326923 L6.29326923,3.39903846 L7.70673077,3.39903846 L7.70673077,6.29326923 L10.6009615,6.29326923 L10.6009615,7.70673077 L10.6009615,7.70673077 Z" id="Shape"></path>
+                        </g>
+                    </g>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>
