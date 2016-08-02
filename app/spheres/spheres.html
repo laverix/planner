@@ -10,7 +10,8 @@
     <div class="sphere"
          *ngFor="let sphere of spheres">
         <div class="description">
-            <img class="icon" src="./app/img/minus.svg" alt="">
+            <img class="icon" src="./app/img/minus.svg"
+                (click)="removeSphere(sphere.title)">
             <p class="sphere-title">
                 {{ sphere.title }}
             </p>

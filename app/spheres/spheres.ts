@@ -29,4 +29,10 @@ export class SpheresComponent {
             title: 'Unknown'
         });
     }
+
+    removeSphere (sphere: string) {
+        this.spheres = this.spheres.filter(function (item) {
+            return item.title !== sphere;
+        });
+    }
 }
