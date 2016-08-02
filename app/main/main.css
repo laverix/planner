@@ -10,3 +10,12 @@
     user-select: none;
     cursor: default;
 }
+
+body {
+    background: #181818;
+}
+
+
+.clear {
+    clear: both;
+}
