@@ -10,7 +10,7 @@
 
     var packages = {
         'app': {
-            main: 'main.js',
+            main: 'app.js',
             defaultExtension: 'js'
         },
         'rxjs': {

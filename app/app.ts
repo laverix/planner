@@ -1,13 +1,5 @@
-import { Component } from '@angular/core';
+import { bootstrap }    from '@angular/platform-browser-dynamic';
 
-import { TopPanelComponent } from './top-panel/top-panel'
+import { AppComponent } from './main/main';
 
-import { SpheresComponent } from './spheres/spheres'
-
-@Component({
-    selector: 'planner',
-    templateUrl: 'app/app.html',
-    directives: [TopPanelComponent, SpheresComponent]
-})
-
-export class AppComponent { }
+bootstrap(AppComponent);
