@@ -1,4 +1,4 @@
-import { Component, ViewEncapsulation } from '@angular/core';
+import { Component, ViewEncapsulation} from '@angular/core';
 
 import { GoalComponent } from './../goal/goal';
 
@@ -10,4 +10,23 @@ import { GoalComponent } from './../goal/goal';
     directives: [GoalComponent]
 })
 
-export class SpheresComponent {}
+export class SpheresComponent {
+    spheres: any[];
+
+    constructor () {
+        this.spheres = [
+            {
+                title: 'Sport'
+            },
+            {
+                title: 'Music'
+            }
+        ];
+    }
+
+    addSphere () {
+        this.spheres.push({
+            title: 'Unknown'
+        });
+    }
+}

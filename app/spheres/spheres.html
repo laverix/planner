@@ -1,16 +1,24 @@
+<div class="add-life-sphere"
+     (click)="addSphere()">
+    Add Life Sphere
+</div>
+
 <div class="sidebar"></div>
 <div class="grid"></div>
 
-<sphere>
-    <div class="description">
-        <img class="icon" src="app/img/minus.svg" alt="">
-        <p class="sphere-title">
-            Music / My band
-        </p>
-        <img class="icon right" src="app/img/plus.svg" alt="">
-        <div class="clear"></div>
+<div class="spheres">
+    <div class="sphere"
+         *ngFor="let sphere of spheres">
+        <div class="description">
+            <img class="icon" src="./app/img/minus.svg" alt="">
+            <p class="sphere-title">
+                {{ sphere.title }}
+            </p>
+            <img class="icon right" src="./app/img/plus.svg" alt="">
+            <div class="clear"></div>
+        </div>
+        <div class="goals">
+            <goal></goal>
+        </div>
     </div>
-    <div class="goals">
-        <goal></goal>
-    </div>
-</sphere>
+</div>
