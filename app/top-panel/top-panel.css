@@ -17,22 +17,6 @@
     float: left;
 }
 
-.download {
-    background: #5DBF2F;
-    border-radius: 4px;
-    width: 160px;
-    font-size: 14px;
-    color: #FFFFFF;
-    text-align: center;
-    padding: 7px;
-    transition: all 200ms ease-in-out;
-    float: right;
-}
-
 .add-life-sphere:hover {
     background: #1FA5FF;
-}
-
-.download:hover {
-    background: #67dd34;
 }
