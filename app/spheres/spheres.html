@@ -12,10 +12,14 @@
         <div class="description">
             <img class="icon" src="./app/img/minus.svg"
                 (click)="removeSphere(sphere.title)">
-            <p class="sphere-title">
+            <p class="sphere-title"
+               contenteditable="true"
+               (blur)="changeTitle($event.target.innerText, sphere.title)">
                 {{ sphere.title }}
             </p>
-            <img class="icon right" src="./app/img/plus.svg" alt="">
+            <img class="icon right"
+                 src="./app/img/plus.svg"
+                 (click)="addGoal()">
             <div class="clear"></div>
         </div>
         <div class="goals">

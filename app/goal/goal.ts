@@ -7,4 +7,26 @@ import { Component, ViewEncapsulation } from '@angular/core';
     encapsulation: ViewEncapsulation.Native
 })
 
-export class GoalComponent {}
+export class GoalComponent {
+    goals: any[];
+
+    constructor () {
+        this.goals = [
+            {
+                title: 'Rest',
+                description: 'I just need it'
+            },
+            {
+                title: 'Go to Studio',
+                description: 'I just need it'
+            }
+        ];
+    }
+
+    addGoal () {
+        this.goals.push({
+            title: 'Set Goal',
+            description: 'Description'
+        });
+    }
+}

@@ -35,4 +35,12 @@ export class SpheresComponent {
             return item.title !== sphere;
         });
     }
+
+    changeTitle (newValue: string, oldValue: string) {
+        this.spheres.map(function (item) {
+            if (item.title === oldValue) {
+                item.title = newValue;
+            }
+        });
+    }
 }
