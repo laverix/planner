@@ -1,4 +1,4 @@
-import { Component, ViewEncapsulation} from '@angular/core';
+import { Component, ViewEncapsulation } from '@angular/core';
 
 import { GoalComponent } from './../goal/goal';
 
@@ -7,36 +7,44 @@ import { GoalComponent } from './../goal/goal';
     templateUrl: 'app/spheres/spheres.html',
     styleUrls: ['./app/spheres/spheres.css'],
     encapsulation: ViewEncapsulation.Native,
-    directives: [GoalComponent]
+    directives: [GoalComponent],
+    providers: [GoalComponent]
+
 })
 
 export class SpheresComponent {
-    spheres: any[];
+    constructor(private goals: GoalComponent) {}
 
-    constructor () {
-        this.spheres = [
-            {
-                title: 'Sport'
-            },
-            {
-                title: 'Music'
-            }
-        ];
+    spheres = [
+        {
+            title: 'Sport'
+        },
+        {
+            title: 'Music'
+        }
+    ];
+
+    addGoal() {
+        this.goals.addGoal();
+
+        console.log(
+            this.goals
+        );
     }
 
-    addSphere () {
+    addSphere() {
         this.spheres.push({
             title: 'Unknown'
         });
     }
 
-    removeSphere (sphere: string) {
+    removeSphere(sphere: string) {
         this.spheres = this.spheres.filter(function (item) {
             return item.title !== sphere;
         });
     }
 
-    changeTitle (newValue: string, oldValue: string) {
+    changeTitle(newValue: string, oldValue: string) {
         this.spheres.map(function (item) {
             if (item.title === oldValue) {
                 item.title = newValue;
