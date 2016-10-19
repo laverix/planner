@@ -1,6 +1,8 @@
 # planner
 Have a great plan!
 
+![](app/img/dark-theme.jpg)
+
 ## Installation
 ```JavaScript
 npm i
